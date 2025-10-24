@@ -15,8 +15,8 @@ export const Hero: React.FC = () => {
 
     const handleDownloadResume = () => {
         const link = document.createElement('a');
-        link.href = '/Mohamed_Adil_Resume.pdf';
-        link.download = 'Mohamed_Adil_Resume.pdf';
+        link.href = '/Mohamed Adil CV.pdf';
+        link.download = 'Mohamed Adil CV.pdf';
         link.click();
     };
 
@@ -229,4 +229,5 @@ export const Hero: React.FC = () => {
             </Container>
         </Box>
     );
+
 };
