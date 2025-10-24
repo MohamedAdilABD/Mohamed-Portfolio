@@ -28,7 +28,7 @@ export const Projects: React.FC = () => {
             image: PortfolioPic,
             technologies: ['React', 'TypeScprit', 'Material-UI', 'Motion-Dev'],
             githubUrl: 'https://github.com/MohamedAdilABD',
-            liveUrl: 'https://example.com',
+            liveUrl: 'https://mohamed-portfoilo.netlify.app/',
         },
         {
             id: 3,
@@ -38,7 +38,7 @@ export const Projects: React.FC = () => {
             image: EmployeeManagementPic,
             technologies: ['JavaScript', 'React', 'Node.js', 'MongoDB', 'Express', 'Bootstrap'],
             githubUrl: 'https://github.com/MohamedAdilABD',
-            liveUrl: 'https://example.com',
+            liveUrl: 'https://employee-management.netlify.app/',
         },
         {
             id: 4,
@@ -293,4 +293,5 @@ export const Projects: React.FC = () => {
             </Container>
         </Box>
     );
+
 };
